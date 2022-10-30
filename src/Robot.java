@@ -8,12 +8,12 @@ public class Robot {
     public String shape;
 
     // constructor method
-    public Robot() {
-        size = 's';
-        red = 200;
-        green = 10;
-        blue = 180;
-        shape = "square";
+    public Robot(char pSize, int pRed, int pGreen, int pBlue, String pShape) {
+        size = pSize;
+        red = pRed;
+        green = pGreen;
+        blue = pBlue;
+        shape = pShape;
     }
 
     public void printInfo() {
